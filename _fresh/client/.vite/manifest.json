@@ -1,0 +1,106 @@
+{
+  "_depth_runtime-CSX6_yBV.js": {
+    "file": "assets/depth_runtime-CSX6_yBV.js",
+    "name": "depth_runtime",
+    "dynamicImports": [
+      "node_modules/.deno/pixi.js@8.19.0/node_modules/pixi.js/lib/index.mjs"
+    ]
+  },
+  "_hooks.module-Dxq9RRKu.js": {
+    "file": "assets/hooks.module-Dxq9RRKu.js",
+    "name": "hooks.module"
+  },
+  "_jsxRuntime.module-C8xocUkD.js": {
+    "file": "assets/jsxRuntime.module-C8xocUkD.js",
+    "name": "jsxRuntime.module",
+    "imports": [
+      "_hooks.module-Dxq9RRKu.js"
+    ]
+  },
+  "fresh:client-entry": {
+    "file": "assets/client-entry-BCwAlK2Z.js",
+    "name": "client-entry",
+    "src": "fresh:client-entry",
+    "isEntry": true,
+    "imports": [
+      "_hooks.module-Dxq9RRKu.js"
+    ],
+    "css": [
+      "assets/client-entry-DBKExTCn.css"
+    ]
+  },
+  "islands/DepthImage.tsx": {
+    "file": "assets/fresh-island__DepthImage-CmBKKpeE.js",
+    "name": "fresh-island__DepthImage",
+    "src": "islands/DepthImage.tsx",
+    "isEntry": true,
+    "imports": [
+      "_hooks.module-Dxq9RRKu.js",
+      "_depth_runtime-CSX6_yBV.js",
+      "_jsxRuntime.module-C8xocUkD.js"
+    ]
+  },
+  "islands/InlineVideoPlayer.tsx": {
+    "file": "assets/fresh-island__InlineVideoPlayer-CB73dbaC.js",
+    "name": "fresh-island__InlineVideoPlayer",
+    "src": "islands/InlineVideoPlayer.tsx",
+    "isEntry": true,
+    "imports": [
+      "_hooks.module-Dxq9RRKu.js",
+      "_jsxRuntime.module-C8xocUkD.js"
+    ]
+  },
+  "islands/ScatterDebugGrid.tsx": {
+    "file": "assets/fresh-island__ScatterDebugGrid-B9zEhPUE.js",
+    "name": "fresh-island__ScatterDebugGrid",
+    "src": "islands/ScatterDebugGrid.tsx",
+    "isEntry": true,
+    "imports": [
+      "_hooks.module-Dxq9RRKu.js",
+      "_jsxRuntime.module-C8xocUkD.js"
+    ]
+  },
+  "islands/depth_runtime.ts": {
+    "file": "assets/fresh-island__depth_runtime-CwrHcwz3.js",
+    "name": "fresh-island__depth_runtime",
+    "src": "islands/depth_runtime.ts",
+    "isEntry": true,
+    "imports": [
+      "_depth_runtime-CSX6_yBV.js"
+    ]
+  },
+  "node_modules/.deno/pixi.js@8.19.0/node_modules/pixi.js/lib/environment-browser/browserAll.mjs": {
+    "file": "assets/browserAll-CQwdjKWt.js",
+    "name": "browserAll",
+    "src": "node_modules/.deno/pixi.js@8.19.0/node_modules/pixi.js/lib/environment-browser/browserAll.mjs",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/.deno/pixi.js@8.19.0/node_modules/pixi.js/lib/index.mjs",
+      "node_modules/.deno/pixi.js@8.19.0/node_modules/pixi.js/lib/environment-webworker/webworkerAll.mjs",
+      "_depth_runtime-CSX6_yBV.js"
+    ]
+  },
+  "node_modules/.deno/pixi.js@8.19.0/node_modules/pixi.js/lib/environment-webworker/webworkerAll.mjs": {
+    "file": "assets/webworkerAll-BslGEesm.js",
+    "name": "webworkerAll",
+    "src": "node_modules/.deno/pixi.js@8.19.0/node_modules/pixi.js/lib/environment-webworker/webworkerAll.mjs",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/.deno/pixi.js@8.19.0/node_modules/pixi.js/lib/index.mjs",
+      "_depth_runtime-CSX6_yBV.js"
+    ]
+  },
+  "node_modules/.deno/pixi.js@8.19.0/node_modules/pixi.js/lib/index.mjs": {
+    "file": "assets/index-zCQ-owVb.js",
+    "name": "index",
+    "src": "node_modules/.deno/pixi.js@8.19.0/node_modules/pixi.js/lib/index.mjs",
+    "isDynamicEntry": true,
+    "imports": [
+      "_depth_runtime-CSX6_yBV.js"
+    ],
+    "dynamicImports": [
+      "node_modules/.deno/pixi.js@8.19.0/node_modules/pixi.js/lib/environment-browser/browserAll.mjs",
+      "node_modules/.deno/pixi.js@8.19.0/node_modules/pixi.js/lib/environment-webworker/webworkerAll.mjs"
+    ]
+  }
+}
